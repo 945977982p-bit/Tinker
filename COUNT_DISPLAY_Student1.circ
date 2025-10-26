@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project source="ScholarGPT">
+  <circuit name="COUNT_DISPLAY">
+    <a name="main" />
+    <!-- Inputs -->
+    <comp lib="0" loc="100,100" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S3"/>
+    </comp>
+    <comp lib="0" loc="100,140" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S2"/>
+    </comp>
+    <comp lib="0" loc="100,180" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S1"/>
+    </comp>
+    <comp lib="0" loc="100,220" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S0"/>
+    </comp>
+
+    <!-- Outputs -->
+    <comp lib="0" loc="700,100" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="false"/>
+      <a name="label" val="N2"/>
+    </comp>
+    <comp lib="0" loc="700,140" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="false"/>
+      <a name="label" val="N1"/>
+    </comp>
+    <comp lib="0" loc="700,180" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="false"/>
+      <a name="label" val="N0"/>
+    </comp>
+
+    <!-- Logic gates and wiring will be added manually after loading -->
+    <!-- This is a starter template. You can now build the full logic inside Logisim Evolution. -->
+  </circuit>
+</project>
